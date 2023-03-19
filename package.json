@@ -1,17 +1,17 @@
 {
   "name": "rehype-image-group",
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "packageManager": "pnpm@7.12.0",
   "description": "",
   "author": "dva-ren",
   "license": "MIT",
-  "homepage": "https://github.com/dva-ren/pkg-name#readme",
+  "homepage": "https://github.com/dva-ren/rehype-image-group#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dva-ren/pkg-name.git"
+    "url": "git+https://github.com/dva-ren/rehype-image-group.git"
   },
-  "bugs": "https://github.com/dva-ren/pkg-name/issues",
+  "bugs": "https://github.com/dva-ren/rehype-image-group/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
@@ -71,7 +71,6 @@
     "unbuild": "^1.1.2",
     "unified": "^10.1.2",
     "unist-util-visit": "^4.1.2",
-    "vite": "^4.1.4",
     "vitest": "^0.29.3"
   },
   "simple-git-hooks": {
