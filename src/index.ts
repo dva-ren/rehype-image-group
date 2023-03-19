@@ -55,7 +55,7 @@ const rehypeCustomEmoji: Plugin<any, Root> = (
           : (tree.children[index] = h(
               'div',
               { class: 'image-group-container' }, [
-                h('div', { class: 'image-container' }, images),
+                h('div', { class: 'image-group' }, images),
               ],
             ))
     })
