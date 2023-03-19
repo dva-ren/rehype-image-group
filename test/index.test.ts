@@ -7,7 +7,7 @@ import stringify from 'rehype-stringify'
 import { describe, expect, it } from 'vitest'
 import rehypeImageGroup from '../src'
 
-const parser = (content: string, options?) => {
+const parser = (content: string, options?: any) => {
   return unified()
     .use(remarkParse)
     .use(gfm)
